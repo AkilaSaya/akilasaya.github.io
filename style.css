@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(19, 15, 15);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.493)),
+    url(./pexels-photo-262978.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header {
+  height: 118px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.404);
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.338);
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+main {
+  height: 400px;
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.728);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 84px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main .bookingbutton {
+  background-color: rgb(245, 99, 99);
+  border-radius: 20px;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  padding-top: 18px;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+
+a {
+  color: darkorange;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.maps {
+  padding-bottom: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: rgb(241, 151, 66);
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(198, 198, 198);
+}
